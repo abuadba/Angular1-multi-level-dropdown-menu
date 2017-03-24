@@ -1,0 +1,25 @@
+{
+  "name": "Angular1-multi-level-dropdown-menu",
+  "version": "0.0.1",
+  "description": "Multi level dropdown menu for angular 1",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "staticServe.js",
+  "scripts": {
+    "start": "node staticServe.js"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abuadba/Angular1-multi-level-dropdown-menu.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
