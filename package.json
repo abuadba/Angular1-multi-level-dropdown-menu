@@ -7,8 +7,10 @@
   },
   "main": "staticServe.js",
   "scripts": {
-    "start": "node staticServe.js"
-  },
+    "postinstall": "bower install",
+    "start": "node staticServe.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
   "dependencies": {
     "express": "4.13.3"
   },
