@@ -13,9 +13,14 @@
         <script src="../scripts/multi-level-dropdown-menu.js"></script>
     </head>
     <body ng-app="testApp">
-        <h3>Multi level dropdown menu for angular 1</h3>
-        <div ng-controller="TestCtrl as testCtrl">
-            <multi-level-dropdown-menu data="testCtrl.data"></multi-level-dropdown-menu>
+        <div class="container">
+            <div class="row">
+                <h3>Multi level dropdown menu for angular 1</h3>
+                <h5>Only leafs can be selected</h5>
+                <div ng-controller="TestCtrl as testCtrl">
+                    <multi-level-dropdown-menu data="testCtrl.data"></multi-level-dropdown-menu>
+                </div>
+            </div>
         </div>
     </body>
 </html>
