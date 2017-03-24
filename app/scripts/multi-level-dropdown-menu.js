@@ -31,7 +31,7 @@
                 templateUrl: "../views/multi-level-dropdown-menu.html",
                 restrict: "E",
                 scope: {
-                    data: "=",
+                    options: "=",
                     model: '='
                 },
                 controller: multiLevelDropdownMenuCtrl,

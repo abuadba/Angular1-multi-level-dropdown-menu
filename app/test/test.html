@@ -17,11 +17,11 @@
             <div class="row" ng-controller="TestCtrl as testCtrl">
                 <h3>Multi level dropdown menu for angular 1</h3>
                 <div>
-                    <multi-level-dropdown-menu data="testCtrl.data" model="testCtrl.testVar"></multi-level-dropdown-menu>
+                    <multi-level-dropdown-menu options="testCtrl.options" model="testCtrl.testVar"></multi-level-dropdown-menu>
                 </div>
-                <h5>Only leafs can be selected. The following data model is used:</h5>
+                <h5>Only leafs can be selected. The following options data structure is used:</h5>
                 <pre>
-                    {{testCtrl.data | json}}
+                    {{testCtrl.options | json}}
                 </pre>
             </div>
         </div>

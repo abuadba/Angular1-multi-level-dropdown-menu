@@ -4,9 +4,10 @@ app.controller('TestCtrl', ['$scope', function ($scope) {
 
     var ctrl = this;
 
-    //ctrl.testVar = {id: 'leaf1111', name: 'Leaf 1111'};
+    // uncomment to see the model works
+    // ctrl.testVar = {id: 'leaf1111', name: 'Leaf 1111'};
 
-    ctrl.data = [
+    ctrl.options = [
         {
             id: 'node1',
             name: "Node 1",
