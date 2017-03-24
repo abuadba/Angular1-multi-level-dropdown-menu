@@ -14,12 +14,15 @@
     </head>
     <body ng-app="testApp">
         <div class="container">
-            <div class="row">
+            <div class="row" ng-controller="TestCtrl as testCtrl">
                 <h3>Multi level dropdown menu for angular 1</h3>
-                <h5>Only leafs can be selected</h5>
-                <div ng-controller="TestCtrl as testCtrl">
+                <div>
                     <multi-level-dropdown-menu data="testCtrl.data"></multi-level-dropdown-menu>
                 </div>
+                <h5>Only leafs can be selected. The following data model is used:</h5>
+                <pre>
+                    {{testCtrl.data | json}}
+                </pre>
             </div>
         </div>
     </body>
