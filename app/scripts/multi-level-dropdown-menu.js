@@ -2,14 +2,22 @@
 (function (angular) {
 
         function multiLevelDropdownMenuCtrl($scope, $timeout) {
-            var ctrl = this;
-            console.log('data: ' + JSON.stringify($scope.data, null, 4));
+
+            $scope.selected = $scope.model || {id: null, name: 'select...'};
 
             $scope.select = function (node) {
                 $timeout(function() {
                     $scope.selected = node;
                 })
-            }
+            };
+
+            $scope.$watch('selected', function (newValue) {
+                $scope.model = newValue;
+            });
+
+            $scope.$watch('model', function (newValue) {
+                $scope.selected = newValue;
+            });
         }
 
         /**
@@ -23,7 +31,8 @@
                 templateUrl: "../views/multi-level-dropdown-menu.html",
                 restrict: "E",
                 scope: {
-                    data: "="
+                    data: "=",
+                    model: '='
                 },
                 controller: multiLevelDropdownMenuCtrl,
                 controllerAs: 'ctrl'

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9f2f5668-3caa-4b68-be48-058d7cd35bce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/multi-level-dropdown-menu.js" afterPath="$PROJECT_DIR$/app/scripts/multi-level-dropdown-menu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/test/test.html" afterPath="$PROJECT_DIR$/app/test/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/test/test.js" afterPath="$PROJECT_DIR$/app/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/multi-level-dropdown-menu.html" afterPath="$PROJECT_DIR$/app/views/multi-level-dropdown-menu.html" />
     </list>
     <ignored path="Angular-multi-level-dropdown-menu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +32,8 @@
       <file leaf-file-name="multi-level-dropdown-menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/multi-level-dropdown-menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="85">
+              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -49,8 +52,8 @@
       <file leaf-file-name="multi-level-dropdown-menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/multi-level-dropdown-menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="170">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -59,8 +62,8 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/test/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="305">
+              <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -69,18 +72,8 @@
       <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="57" />
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -127,14 +120,14 @@
         <option value="$PROJECT_DIR$/app/styles/multi-level-dropdown-menu.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/test/testCtrl.js" />
-        <option value="$PROJECT_DIR$/app/scripts/multi-level-dropdown-menu.js" />
-        <option value="$PROJECT_DIR$/app/views/multi-level-dropdown-menu.html" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/staticServe.js" />
-        <option value="$PROJECT_DIR$/app/test/test.js" />
+        <option value="$PROJECT_DIR$/app/views/multi-level-dropdown-menu.html" />
         <option value="$PROJECT_DIR$/app/test/test.html" />
+        <option value="$PROJECT_DIR$/app/scripts/multi-level-dropdown-menu.js" />
+        <option value="$PROJECT_DIR$/app/test/test.js" />
       </list>
     </option>
   </component>
@@ -357,12 +350,12 @@
       <workItem from="1488544792499" duration="8784000" />
       <workItem from="1488557342031" duration="8522000" />
       <workItem from="1490361354076" duration="21000" />
-      <workItem from="1490361530028" duration="13048000" />
+      <workItem from="1490361530028" duration="14616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33266000" />
+    <option name="totallyTimeSpent" value="34834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -594,22 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/multi-level-dropdown-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/multi-level-dropdown-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -642,26 +619,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/multi-level-dropdown-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/multi-level-dropdown-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/multi-level-dropdown-menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/test/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="305">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>

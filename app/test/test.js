@@ -4,6 +4,8 @@ app.controller('TestCtrl', ['$scope', function ($scope) {
 
     var ctrl = this;
 
+    //ctrl.testVar = {id: 'leaf1111', name: 'Leaf 1111'};
+
     ctrl.data = [
         {
             id: 'node1',
