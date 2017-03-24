@@ -1,0 +1,15 @@
+{
+  "name": "Angular-multi-level-dropdown-menu",
+  "homepage": "https://github.com/abuadba/Angular-multi-level-dropdown-menu",
+  "authors": [
+    "Majdy <majdygo@gmail.com>"
+  ],
+  "description": "Multi level dropdown menu for angular 1",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

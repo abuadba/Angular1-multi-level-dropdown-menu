@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular 1 Multi level dropdown menu</title>
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../styles/multi-level-dropdown-menu.css">
+
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="./test.js"></script>
+        <script src="../scripts/multi-level-dropdown-menu.js"></script>
+    </head>
+    <body ng-app="testApp">
+        <div ng-controller="TestCtrl as testCtrl">
+            <multi-level-dropdown-menu data="testCtrl.data"></multi-level-dropdown-menu>
+        </div>
+    </body>
+</html>
