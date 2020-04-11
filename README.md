@@ -1,6 +1,6 @@
 # Angular1-multi-level-dropdown-menu
 
-Works perfect :)
+Works perfect, i will add it to npm soon :)
 
 see demo here: https://angular1-multi-level-drop-menu.herokuapp.com/test/test.html
 
@@ -10,7 +10,7 @@ If you want to test it locally on your machine then please do the following:
   3. run "node staticServe.js"
   4. open this url in your browser: http://localhost:8080/test/test.html
 
-Css & some html credit for this guy: http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3  
+A big credit for css & parts of html goes for this guy: http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3  
 
 Feel free to use, enhance & customize.
 
