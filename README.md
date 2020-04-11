@@ -1,6 +1,6 @@
 # angularjs-multi-level-dropdown-menu
 
-Works perfect, i will add it to npm soon :)
+Works perfect :)
 
 see demo here: https://angular1-multi-level-drop-menu.herokuapp.com/test/test.html
 
