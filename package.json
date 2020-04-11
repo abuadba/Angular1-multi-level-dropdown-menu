@@ -1,7 +1,7 @@
 {
-  "name": "Angular1-multi-level-dropdown-menu",
+  "name": "angular1-multi-level-dropdown-menu",
   "version": "0.0.1",
-  "description": "Multi level dropdown menu for angular 1",
+  "description": "Multi level dropdown menu for angularJS",
   "engines": {
     "node": "5.9.1"
   },
