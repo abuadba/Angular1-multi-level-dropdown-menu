@@ -1,4 +1,4 @@
-# Angular1-multi-level-dropdown-menu
+# angularjs-multi-level-dropdown-menu
 
 Works perfect, i will add it to npm soon :)
 
